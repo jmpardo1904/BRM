@@ -10,3 +10,11 @@ Para el correcto funcionamiento del API Rest:
 `Comando 2`: npx sequelize-cli db:migrate
 
 `Comando 3`: npx sequelize-cli db:seed:all
+
+editar el archivo database.js ubicado en ./src/config/database.js
+```javascript
+const sequelize = new Sequelize("nombre_bd", "usuario", "contraseña", {
+  host: "localhost",
+  dialect: "mysql",
+  port: 3306,
+});
