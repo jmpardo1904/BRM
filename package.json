@@ -27,6 +27,7 @@
     "yarm": "^0.4.0"
   },
   "devDependencies": {
+    "apidoc": "^1.2.0",
     "sequelize-cli": "^6.6.1"
   }
 }
