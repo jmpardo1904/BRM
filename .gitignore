@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Editor
+.vscode/
+.idea/
+
+# Logs y archivos generados
+logs/
+dist/
+coverage/
+
+# Dependiendo de tu entorno de desarrollo, puedes añadir más
