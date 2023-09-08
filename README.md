@@ -18,3 +18,10 @@ const sequelize = new Sequelize("nombre_bd", "usuario", "contraseña", {
   dialect: "mysql",
   port: 3306,
 });
+```
+una vez hecho los pasos mencionados anteriormente.
+
+
+para ejecutar el servidor de nodemon, debemos introducir el comando:
+
+`Comando`: npm run dev
